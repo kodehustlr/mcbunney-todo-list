@@ -29,15 +29,18 @@ h2 {
 }
 
 h3 {
-  /* margin-top: 2rem; */
-  background-color: #C8D1BA;
+  /* background-color: #C8D1BA;
   background-color: #dbe1d1;
   background-color: rgba(125, 141, 98, 0.20);
-  background-color: rgba(141, 132, 98, 0.2);
-  /* background-color: rgba(126, 158, 207, 0.2); */
+  background-color: rgba(141, 132, 98, 0.2); */
   padding: .25rem;
   padding: .5rem .25rem;
   border-radius: 6px;
+  color: #5a4839;
+  margin: 1.5rem 0;
+  padding: .5rem .25rem .375rem;
+  /* margin-top: 2rem; */
+  /* background-color: rgba(126, 158, 207, 0.2); */
   /* border: 1px solid #6e5a49; */
   /* border: 1px solid #bec4b2; */
   /* border: 3px solid #bec4b2; */
@@ -55,11 +58,8 @@ h3 {
   box-shadow: 5px 5px #b8ccaa;
   box-shadow: 5px 5px #7d6b65; */
   /* box-shadow: 4px 4px #aab19d; */
-  color: #5a4839;
-  margin: 2rem 0;
-  margin: 2rem 0 1.25rem;
+  /* margin: 2rem 0 1.25rem; */
   /* border-right: 5px solid #c2c8b7; */
-  padding: .5rem .25rem .375rem;
   /* border-bottom: 3px solid #c6af90; */
   /* border-bottom: 3px solid #cebea8; */
 }
@@ -157,6 +157,11 @@ button:hover {
   box-shadow: 3px 4px #834f37;
 }
 
+.todo-list-continer {
+  max-width: 620px;
+  max-width: 680px;
+  margin: auto;
+}
 .todo-list {
   padding-inline-start: 0;
   margin-bottom: 0;
@@ -205,26 +210,43 @@ button:hover {
   margin-top: 4rem;
   max-width: 620px;
   max-width: 860px;
+  max-width: 960px;
+  max-width: 680px;
   padding: .5rem 3rem 1rem;
   padding: 1rem 3rem;
   margin: auto;
   box-sizing: border-box;
 }
-
+.origin-story.page {
+  max-width: 960px;
+  padding: 1.5rem 3.5rem;
+}
 .origin-story p, .origin-story li {
   line-height: 1.5;
 }
 
 a {
+  text-decoration: none;
   color: #0f629e;
   color: #448ec4;
-  text-decoration: none;
+  color: #447cc4;
+  color: #c77148;
+  /* color: #6E5A49; */
 }
 
 a:hover {
   color: #448ec4;
   color: #0f629e;
-  text-decoration: underline;
+  color: #2d568c;
+  color: #91573c;
+  color: #c77148;
+  color: #9c5634;
+  olor: #b76d4a;
+  color: #af6643;
+  /* margin-bottom: 2px solid #2d568c; */
+  /* text-decoration: underline; */
+  background-color: #eae3db;
+  background-color: rgba(141, 132, 98, 0.2);
 }
 
 ol {
@@ -249,18 +271,19 @@ hr {
   background-color: #eeebe8;
   background-color: #e8e2dd;
   border: none;
-  margin: 2.5rem 0 2rem;
+  margin: 2rem 0 2rem;
 }
 
 .container {
-  max-width: 620px;
+  max-width: 960px;
   margin: auto;
   padding: 3rem 0;
+  padding: 5rem 0 4rem;
   padding: 6rem 0 5rem;
 }
 .container-large {
   background-color: #E2E8D8;
-  background-color: #dbe1d1;
+  /* background-color: #dbe1d1; */
   padding: 5rem;
 }
 .page-title {
@@ -270,13 +293,13 @@ hr {
 .bunny-img {
   width: 150px;
   height: 150px;
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   border-radius: 32px;
   /* border: 3px solid #cdd2d7; */
-  border: 3px solid #8b8d88;
-  float: left;
-  margin-right: 1.25rem;
+  /* border: 3px solid #8b8d88; */
+  float: right;
+  margin-left: 1.25rem;
   margin-bottom: 1.25rem;
   /* margin-top: 1rem */
 }
@@ -294,6 +317,10 @@ hr {
 
 .mb05 {
   margin-bottom: 0.5rem;
+}
+
+.mt05 {
+  margin-top: 0.5rem;
 }
 
 .highlight {
@@ -399,4 +426,85 @@ hr {
   color: #c77148;
   /* color: #6E5A49; */
   /* text-decoration: none; */
+}
+
+
+
+
+.features {
+  padding: 5rem;
+  background-color: #fffdf1;
+  background-color: #fdf8eb;
+  background-color: #fdf9eb;
+  background-color: #f6f6eb;
+  background-color: #f6f5eb;
+}
+.features-container {
+  max-width: 920px;
+  max-width: 680px;
+  margin: auto;
+}
+.w-30 {
+  width: 30%;
+  width: 45%;
+  display: inline-block;
+  background-color: #fffffa;
+  border-radius: 10px;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid #ede5da;
+  margin: 1.4%;
+  margin: 2.2%;
+  padding: 2rem;
+  padding: 1.75rem;
+  box-sizing: border-box;
+}
+.bunny-small-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem
+}
+
+.testimonials-section {
+  padding: 5rem;
+  background-color: #7e7e69;
+  background-color: #b8785a;
+  background-color: #607762;
+}
+.testimonials {
+  margin: auto;
+  width: 680px;
+  color: white;
+}
+.testimonial-img {
+  width: 140px;
+  width: 20%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1.5rem;
+  border: 4px solid #b6a79b;
+}
+.testimonial-txt {
+  width: 75%;
+  display: inline-block;
+  margin: 2.125rem 0;
+  text-align: left;
+}
+
+footer {
+  background-color: #8b9f68;
+    background-color: #b8bfab;
+    background-color: #a3ad92;
+    background-color: #a3ad92;
+    background-color: #a57656;
+    background-color: #c77148;
+    /* background-color: #2b503b; */
+    background-color: #486755;
+    background-color: #607762;
+    background-color: #b8785a;
+    padding: 3rem;
+    color: #fffffb;
+}
+
+footer a {
+  color: #fffffb;
 }

@@ -22,7 +22,7 @@ app.get('/', function(req, res) {
 
   let day = today.toLocaleDateString('en-US', dateFormat);
 
-  res.render('list', {
+  res.render('index', {
     date: day,
     newListItems: items,
     itemsCount: count
@@ -37,6 +37,11 @@ app.post('/', function(req, res) {
 
   res.redirect('/');
 
+});
+
+app.get('/story', function(req, res) {
+  res.render('story', {});
+  // res.sendFile(__dirname + "/story.html");'
 });
 
 app.listen(port, function() {

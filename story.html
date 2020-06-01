@@ -9,39 +9,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
   <link rel="icon" href="images/bunny-icon14.png">
   <link rel="stylesheet" href="css/styles.css">
-  <title>ToDo List — Kodehustlr</title>
+  <title>Story — Kodehustlr</title>
 </head>
 
 <body>
-  <div class="container">
-
-    <div class="page-title">
-      <h1><%= date %></h1>
-      <!-- <h2>by Claire D. McKinsey</h2> -->
-      <h2>by Aelia Carrotte McBunney <i class="fas fa-carrot carrot"></i></h2>
-      <!-- <h2>by Aelia Bunney McCarrotte <i class="fas fa-carrot carrot"></i></h2> -->
-      <!-- <h2>by Chanya le Papillon</h2> -->
-    </div>
-
-    <!-- <h3>What are you going to do today?</h3> -->
-    <h3 class="welcome">Welcome to the McBunney's Todo List!</h4>
-    <h4>Add New Items</h4>
-    <form action="/" method="post">
-      <input type="text" name="newItem" placeholder="Enter your to-do list item" required>
-      <button type="submit" name="button">Add</button>
-    </form>
-
-    <p style="float: right; margin-top: 0;"><%= itemsCount %> items</p>
-    <h4 class="left">My Todo List Items:</h4>
-    <ul class="todo-list">
-      <% for (var i = 0; i < newListItems.length; i++) { %>
-        <li><%= newListItems[i] %></li>
-      <% } %>
-    </ul>
-    <p class="read-story"><a href="">Read Story</a></p>
-    <p class="list-explain">Save your ideas, tasks, and assignments or just quickly write down your weekend, vacation or cooking plans.</p>
-    <p class="social-media">Share: &nbsp; <a href=""><i class="fab fa-facebook"></i></a> &nbsp; <a href=""><i class="fab fa-twitter"></i></a> &nbsp; <a href=""><i class="fas fa-envelope"></i></a></p>
-  </div>
 
   <div class="container-large">
 
